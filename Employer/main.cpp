@@ -8,18 +8,21 @@ public:
 };
 
 class Presedent : public Employer {
+public:
 	void Print() override {
 		cout << "Presedent::print" << endl;
 	}
 };
 
 class Manager : public Employer {
+public:
 	void Print() override {
 		cout << "Manager::print" << endl;
 	}
 };
 
 class Worker : public Employer {
+public:
 	void Print() override {
 		cout << "Worker::print" << endl;
 	}
